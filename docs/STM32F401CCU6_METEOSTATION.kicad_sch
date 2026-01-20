@@ -1,0 +1,587 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b48bde2c-fade-4baa-af49-c4bf6f18b927")
+	(paper "A5")
+	(title_block
+		(title "Weather Station")
+		(date "2026-01-20")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 105.41 46.99) (xy 105.41 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17145794-100a-4888-974d-fa75d4e521db")
+	)
+	(wire
+		(pts
+			(xy 109.22 46.99) (xy 109.22 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ea437a-0519-4616-b857-b64711508c62")
+	)
+	(wire
+		(pts
+			(xy 130.81 57.15) (xy 142.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eca1891-0a84-43cb-bebb-87594df96d23")
+	)
+	(wire
+		(pts
+			(xy 83.82 54.61) (xy 88.9 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3285121f-1a63-4477-9285-b945e797210d")
+	)
+	(wire
+		(pts
+			(xy 130.81 66.04) (xy 142.24 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf2e4d7-8884-4c2b-8a20-07ea7f458534")
+	)
+	(wire
+		(pts
+			(xy 83.82 80.01) (xy 88.9 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2f3e10-075d-4951-810f-ffc70b05ddff")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 113.03 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84222992-0c53-4280-8c55-2d17ceed0193")
+	)
+	(wire
+		(pts
+			(xy 130.81 60.96) (xy 142.24 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2005570-8faa-4fd4-90e8-29db100f03db")
+	)
+	(wire
+		(pts
+			(xy 83.82 58.42) (xy 88.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb63dacb-367d-4719-aa54-6c713e290725")
+	)
+	(wire
+		(pts
+			(xy 83.82 63.5) (xy 88.9 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd084776-1a53-4e0b-a30c-77d5f68c6e90")
+	)
+	(wire
+		(pts
+			(xy 83.82 83.82) (xy 88.9 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f9cafa-04e7-4b12-9d61-f9db5b23fdca")
+	)
+	(wire
+		(pts
+			(xy 83.82 76.2) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc5e6985-27e0-45cd-8500-6bb4e210d31e")
+	)
+	(sheet
+		(at 88.9 52.07)
+		(size 41.91 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1967fd11-b78f-4f21-895d-a67879131898")
+		(property "Sheetname" "MCU"
+			(at 88.9 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 88.9 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C1_SCL" bidirectional
+			(at 109.22 52.07 90)
+			(uuid "5acbbbfa-a12f-437a-8ff9-2de66f2ba351")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 105.41 52.07 90)
+			(uuid "d9b5f326-0274-45f7-aac9-1a7343f7ef24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3_SCL" bidirectional
+			(at 88.9 58.42 180)
+			(uuid "c9d73db1-49fe-4e03-8b79-b3dc56d570fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C3_SDA" bidirectional
+			(at 88.9 54.61 180)
+			(uuid "bd229753-26b5-488c-875a-2812a6148f26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" bidirectional
+			(at 130.81 57.15 0)
+			(uuid "8592e88c-106e-4d37-8158-cc596091fa25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 130.81 60.96 0)
+			(uuid "8a995a96-bc60-4be7-9349-ba30bfb35e84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_TX_ONLY" bidirectional
+			(at 130.81 66.04 0)
+			(uuid "77574ed3-240e-446a-85e5-000a6dbe2236")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2_SCL" output
+			(at 88.9 80.01 180)
+			(uuid "c4666735-7899-4626-992c-8f5495dc7678")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C2_SDA" bidirectional
+			(at 88.9 76.2 180)
+			(uuid "ebb15afa-4bfe-4a3e-8f8b-348c6406c4d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AHT10_RED_LED" output
+			(at 113.03 52.07 90)
+			(uuid "4b1b4bbe-e688-44b8-8d48-daae3e1b8b3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BMP280_RED_LED" output
+			(at 88.9 83.82 180)
+			(uuid "58b6aab9-b249-4681-8761-5827c6ed41f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OLED_RED_LED" output
+			(at 88.9 63.5 180)
+			(uuid "3697c152-20de-4462-b05d-74e585369c35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "STM32F401CCU6_METEOSTATION"
+				(path "/b48bde2c-fade-4baa-af49-c4bf6f18b927"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 29.21)
+		(size 24.13 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "37995e8f-333a-4596-85c2-27e400287e7b")
+		(property "Sheetname" "AHT10"
+			(at 97.79 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AHT10.kicad_sch"
+			(at 97.536 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C1_SCL" bidirectional
+			(at 109.22 46.99 270)
+			(uuid "7026f39d-c38b-4c64-b740-9e4f67ae221c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 105.41 46.99 270)
+			(uuid "b9c279a4-dfd1-43f7-afeb-65b4d5cb1b4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AHT10_RED_LED" input
+			(at 113.03 46.99 270)
+			(uuid "9a10a670-894b-4c59-9239-a923e3d91b89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "STM32F401CCU6_METEOSTATION"
+				(path "/b48bde2c-fade-4baa-af49-c4bf6f18b927"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 71.12)
+		(size 24.13 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "82146257-b3a1-4c95-9b51-7f934bf5764b")
+		(property "Sheetname" "BMP280"
+			(at 59.69 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMP280.kicad_sch"
+			(at 59.69 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C2_SCL" input
+			(at 83.82 80.01 0)
+			(uuid "94af4687-720f-4385-95b7-7a00bf8240c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2_SDA" bidirectional
+			(at 83.82 76.2 0)
+			(uuid "2aaa5d24-585d-40ec-a643-d358c55859ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BMP280_RED_LED" input
+			(at 83.82 83.82 0)
+			(uuid "551721f2-96d3-4f83-a736-3837adebcfa2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "STM32F401CCU6_METEOSTATION"
+				(path "/b48bde2c-fade-4baa-af49-c4bf6f18b927"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 52.07)
+		(size 30.48 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a99c9b24-378d-4486-8708-978613bc79d1")
+		(property "Sheetname" "Debug_and_UART"
+			(at 142.24 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Debug_and_UART.kicad_sch"
+			(at 142.24 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWCLK" bidirectional
+			(at 142.24 57.15 180)
+			(uuid "0f477eeb-c492-4b8b-a587-9b3ef486cfe8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 142.24 60.96 180)
+			(uuid "c2ed8dfc-b754-435a-96da-84d02d791d26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART1_TX_Only" bidirectional
+			(at 142.24 66.04 180)
+			(uuid "e394ff11-953f-41ea-ab58-bb6e789df656")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "STM32F401CCU6_METEOSTATION"
+				(path "/b48bde2c-fade-4baa-af49-c4bf6f18b927"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 52.07)
+		(size 21.59 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f2474366-e65b-48a5-ab9b-15667e476d88")
+		(property "Sheetname" "Display"
+			(at 62.23 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 62.23 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C3_SCL" bidirectional
+			(at 83.82 58.42 0)
+			(uuid "6caa2cbe-7836-4735-89d4-300c011e6070")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3_SDA" bidirectional
+			(at 83.82 54.61 0)
+			(uuid "446553bd-4913-4a06-b2d1-5e133350a0f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OLED_RED_LED" input
+			(at 83.82 63.5 0)
+			(uuid "9016bb19-2782-43f8-9db7-4ca755fbcfed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "STM32F401CCU6_METEOSTATION"
+				(path "/b48bde2c-fade-4baa-af49-c4bf6f18b927"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
